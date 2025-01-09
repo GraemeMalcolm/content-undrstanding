@@ -152,7 +152,7 @@ Now that you've created an analyzer, you can consume it from a client applicatio
     > **Note**: If you have previously created a cloud shell that uses a *Bash* environment, switch it to ***PowerShell***.
 
 1. Note that you can resize the cloud shell by dragging the separator bar at the top of the pane, or by using the **&#8212;**, **&#10530;**, and **X** icons at the top right of the pane to minimize, maximize, and close the pane. For more information about using the Azure Cloud Shell, see the [Azure Cloud Shell documentation](https://docs.microsoft.com/azure/cloud-shell/overview).
-1. In the cloud shell toolbar, in the **Settings** menu, select **Go to Classic version**.
+1. In the cloud shell toolbar, in the **Settings** menu, select **Go to Classic version** (this is required to use the code editor).
 
 1. In the PowerShell pane, enter the following commands to clone the GitHub repo for this exercise:
 
@@ -167,7 +167,7 @@ Now that you've created an analyzer, you can consume it from a client applicatio
     cd mslearn-content/code
     ```
 
-1. Enter the following command to edit the **analyze_doc.py** Python code file that has been provided (you may be prompted to switch to the *classic cloud shell* experience):
+1. Enter the following command to edit the **analyze_doc.py** Python code file that has been provided:
 
     ```
     code analyze_doc.py
@@ -182,7 +182,7 @@ Now that you've created an analyzer, you can consume it from a client applicatio
 
 1. After you've replaced the placeholders, use the **CTRL+S** command to save your changes and then review the completed code, which:
     - Submits an HTTP POST request to your Content Understanding endpoint, instructing the **travel-insurance-analyzer** to analyze a form based on its URL.
-    - Check the response from the POST operation to retrieve an ID for the analysis operation.
+    - Checks the response from the POST operation to retrieve an ID for the analysis operation.
     - Repeatedly submits an HTTP GET request to your Content Understanding service until the operation is no longer running.
     - If the operation has succeeded, displays the JSON response.
 1. Use the **CTRL+Q** command to close the code editor while keeping the cloud shell command line open.
