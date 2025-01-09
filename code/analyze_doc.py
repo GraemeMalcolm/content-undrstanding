@@ -1,7 +1,7 @@
 import requests
 import json
 
-endpoint = '<CONTENT_UNDERSTANDING_ENDPOINT'
+endpoint = '<CONTENT_UNDERSTANDING_ENDPOINT>'
 key = '<CONTENT_UNDERSTANDING_KEY>'
 analyzer_name = 'travel-insurance-analyzer'
 document_url = 'https://github.com/GraemeMalcolm/content-undrstanding/raw/main/forms/rest-form.pdf'
