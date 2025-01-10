@@ -121,7 +121,7 @@ Now that you have trained a model to extract fields from insurance forms, you ca
 1. In the navigation pane on the left, select the **Build analyzer** page.
 1. Select **+ Build analyzer** and build a new analyzer with the following properties (typed exactly as shown here):
     - **Name**: `travel-insurance-analyzer`
-    - **Description**" `Insurance form analyzer`
+    - **Description**: `Insurance form analyzer`
 1. Wait for the new analyzer to be ready (use the **Refresh** button to check).
 1. Download [test-form.pdf](https://github.com/GraemeMalcolm/content-undrstanding/raw/main/forms/test-form.pdf) from `https://github.com/GraemeMalcolm/content-undrstanding/raw/main/forms/test-form.pdf` and save it in a local folder.
 1. Return to the **Build analyzer** page and select the **travel-insurance-analyzer** link. The fields defined in the analyzer's schema will be displayed.
